@@ -16,7 +16,8 @@
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="370" y="220"/>
-                            <mxPoint x="560" y="220"/>
+                            <mxPoint x="670" y="220"/>
+                            <mxPoint x="670" y="280"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
@@ -32,21 +33,11 @@
                 <mxCell id="7" value="input" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="120" y="280" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="10" target="15">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="370" y="500"/>
-                            <mxPoint x="310" y="500"/>
-                        </Array>
-                    </mxGeometry>
+                <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.44;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;rounded=0;" edge="1" parent="1" source="10" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="10" target="16">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="370" y="500"/>
-                            <mxPoint x="470" y="500"/>
-                        </Array>
-                    </mxGeometry>
+                <mxCell id="22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="10" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="10" value="process&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="310" y="290" width="120" height="60" as="geometry"/>
@@ -58,22 +49,31 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="13" value="output" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="500" y="280" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="610" y="290" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="let user choose number between (0-9)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="14" value="&lt;span&gt;generate&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span&gt;random&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span&gt;number&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="120" y="420" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="user choose number (3)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="250" y="560" width="120" height="60" as="geometry"/>
+                <mxCell id="15" value="true" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="550" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="you guessing the number he choose it between (0-9)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="410" y="560" width="120" height="60" as="geometry"/>
+                <mxCell id="16" value="false" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="550" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="total" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="600" y="400" width="120" height="60" as="geometry"/>
+                <mxCell id="17" value="if it false&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="707" y="400" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="if you choose (3)&lt;br&gt;you are correctly&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="440" y="400" width="120" height="60" as="geometry"/>
+                <mxCell id="24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="18" target="23">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="if it true&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="400" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="break" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="510" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="show the real generate&amp;nbsp;&lt;br&gt;random&amp;nbsp;&lt;br&gt;number&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="707" y="500" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
